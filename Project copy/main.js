@@ -1,3 +1,4 @@
+import WebSocket from 'ws';
 let turn = false;
 const ws = new WebSocket('ws://localhost:3000');
 
